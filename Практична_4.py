@@ -2,7 +2,7 @@
 def double(arr):
     duplicatee = set()
     result = []
-    for item in lst:
+    for item in arr:
         if item not in duplicatee:
             duplicatee.add(item)
             result.append(item)
